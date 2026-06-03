@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\hopdongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\hopdongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\resetmatkhaunguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\resetmatkhaunguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\updatenguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\updatenguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\phieuthuhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\phieuthuhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\danhmucthietbicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\danhmucthietbicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\updatetrangthainguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\updatetrangthainguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\createnguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\createnguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\models\\quanlychothuethietbicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\models\\quanlychothuethietbicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\thongbaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\thongbaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\thongbaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\thongbaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\models\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\models\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\quanlychothuethietbi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\quanlychothuethietbi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\thietbidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\thietbidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\controllers\\thietbicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\controllers\\thietbicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\models\\thietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\models\\thietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\quanlychothuethietbi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\quanlychothuethietbi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\khachhangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\khachhangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\hopdongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\hopdongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\models\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\models\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|d:\\nam_3_hoc_ky_2_2025_2026\\lap_trinh_di_dong\\do_an_cuoi_ky\\do_an_ltdd\\quanlychothuethietbi\\quanlychothuethietbi\\dtos\\danhmucthietbidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF250F5-5A65-4EED-A4F7-3C9A47CEF93F}|QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj|solutionrelative:quanlychothuethietbi\\dtos\\danhmucthietbidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NguoiDungController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\NguoiDungController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\NguoiDungController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\NguoiDungController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\NguoiDungController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:00:00.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateNguoiDungDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\UpdateNguoiDungDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\UpdateNguoiDungDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\UpdateNguoiDungDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\UpdateNguoiDungDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:47:11.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T06:48:15.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\KhachHangController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\KhachHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T23:18:43.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhieuThuHoiController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\PhieuThuHoiController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\PhieuThuHoiController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\PhieuThuHoiController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\PhieuThuHoiController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T01:49:26.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HopDongController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\HopDongController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\HopDongController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\HopDongController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\HopDongController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA3wBsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T01:47:37.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResetMatKhauNguoiDungDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\ResetMatKhauNguoiDungDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\ResetMatKhauNguoiDungDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\ResetMatKhauNguoiDungDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\ResetMatKhauNguoiDungDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:48:26.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DanhMucThietBiController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\DanhMucThietBiController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\DanhMucThietBiController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\DanhMucThietBiController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\DanhMucThietBiController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T01:21:56.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\UploadController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:00:46.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateTrangThaiNguoiDungDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\UpdateTrangThaiNguoiDungDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\UpdateTrangThaiNguoiDungDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\UpdateTrangThaiNguoiDungDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\UpdateTrangThaiNguoiDungDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T10:59:23.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateNguoiDungDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\CreateNguoiDungDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\CreateNguoiDungDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\CreateNguoiDungDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\CreateNguoiDungDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T10:58:51.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuanLyChoThueThietBiContext.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\QuanLyChoThueThietBiContext.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Models\\QuanLyChoThueThietBiContext.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\QuanLyChoThueThietBiContext.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Models\\QuanLyChoThueThietBiContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T03:08:11.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Models\\NguoiDung.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Models\\NguoiDung.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T10:54:59.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T10:56:08.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ThongBaoController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\ThongBaoController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\ThongBaoController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\ThongBaoController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\ThongBaoController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:35:18.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Program.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Program.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Program.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAiwHkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T12:01:28.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ThongBaoDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\ThongBaoDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\ThongBaoDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\ThongBaoDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\ThongBaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:34:47.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThongBao.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\ThongBao.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Models\\ThongBao.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\ThongBao.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Models\\ThongBao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:33:14.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\appsettings.json",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\appsettings.json",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\appsettings.json",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-23T12:38:49.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuanLyChoThueThietBi.http",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi.http",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\QuanLyChoThueThietBi.http",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi.http",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\QuanLyChoThueThietBi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-29T06:48:33.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ThietBiController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\ThietBiController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\ThietBiController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\ThietBiController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\ThietBiController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T23:10:58.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-23T11:54:42.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ThongKeController.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\ThongKeController.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Controllers\\ThongKeController.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Controllers\\ThongKeController.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Controllers\\ThongKeController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwE8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:34:42.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ThietBiDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\ThietBiDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\ThietBiDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\ThietBiDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\ThietBiDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T00:46:50.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ThietBi.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\ThietBi.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Models\\ThietBi.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\ThietBi.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Models\\ThietBi.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA6wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T00:47:52.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QuanLyChoThueThietBi.csproj",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\QuanLyChoThueThietBi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T12:07:05.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Mappings\\MappingProfile.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T23:12:16.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "KhachHangDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\KhachHangDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\KhachHangDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\KhachHangDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\KhachHangDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T01:16:26.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HopDongDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\HopDongDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\HopDongDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\HopDongDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\HopDongDto.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T02:45:12.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HopDong.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\HopDong.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\Models\\HopDong.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\Models\\HopDong.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\Models\\HopDong.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA2wB8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T02:47:05.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DanhMucThietBiDto.cs",
+              "DocumentMoniker": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\DanhMucThietBiDto.cs",
+              "RelativeDocumentMoniker": "QuanLyChoThueThietBi\\DTOs\\DanhMucThietBiDto.cs",
+              "ToolTip": "D:\\Nam_3_Hoc_ky_2_2025_2026\\Lap_trinh_di_dong\\Do_an_cuoi_ky\\Do_An_LTDD\\QuanLyChoThueThietBi\\QuanLyChoThueThietBi\\DTOs\\DanhMucThietBiDto.cs",
+              "RelativeToolTip": "QuanLyChoThueThietBi\\DTOs\\DanhMucThietBiDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T01:16:13.688Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
