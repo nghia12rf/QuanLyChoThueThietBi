@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Data.SqlClient;
 using AutoMapper;
@@ -6,6 +6,7 @@ using AutoMapper.QueryableExtensions;
 using QuanLyChoThueThietBi.Models;
 using RentalEquipmentAPI.DTOs;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace RentalEquipmentAPI.Controllers
 {
@@ -51,6 +52,20 @@ namespace RentalEquipmentAPI.Controllers
                 .FirstOrDefaultAsync();
 
             if (dto == null) return NotFound(new { Message = $"Không tìm thấy thiết bị mã {id}" });
+
+            return Ok(dto);
+        }
+
+        // GET: api/ThietBi/ByCode/TB001
+        [HttpGet("ByCode/{code}")]
+        public async Task<ActionResult<ThietBiDto>> GetThietBiByCode(string code)
+        {
+            var dto = await _context.ThietBis
+                .Where(x => x.MaDinhDanhThietBi == code || x.SoSeri == code)
+                .ProjectTo<ThietBiDto>(_mapper.ConfigurationProvider)
+                .FirstOrDefaultAsync();
+
+            if (dto == null) return NotFound(new { Message = $"Không tìm thấy thiết bị với mã định danh hoặc số Seri: {code}" });
 
             return Ok(dto);
         }
@@ -127,6 +142,42 @@ namespace RentalEquipmentAPI.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
+        }
+
+        // PUT: api/ThietBi/5/TrangThai
+        [HttpPut("{id}/TrangThai")]
+        public async Task<IActionResult> PutTrangThai(int id, [FromBody] ThietBiUpdateStatusDto dto)
+        {
+            try
+            {
+                var entity = await _context.ThietBis.FindAsync(id);
+                if (entity == null) return NotFound(new { Message = "Không tìm thấy thiết bị" });
+
+                string trangThaiCu = entity.TrangThai ?? "SanSang";
+                entity.TrangThai = dto.TrangThai;
+
+                // Ghi nhận lịch sử luân chuyển thiết bị
+                var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                int currentUserId = userIdClaim != null ? int.Parse(userIdClaim) : 1; // Mặc định là 1 nếu không có token
+
+                _context.LichSuLuanChuyens.Add(new LichSuLuanChuyen
+                {
+                    MaThietBi = id,
+                    LoaiLuanChuyen = dto.TrangThai == "SanSang" ? "NhapHoi" : "DiBaoTri",
+                    TrangThaiTruoc = trangThaiCu,
+                    TrangThaiSau = dto.TrangThai,
+                    MaNguoiThucHien = currentUserId,
+                    NgayTao = DateTime.Now,
+                    GhiChu = dto.TrangThai == "SanSang" ? "Hoàn thành bảo trì" : "Bắt đầu bảo trì"
+                });
+
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "Lỗi hệ thống khi cập nhật trạng thái thiết bị", Error = ex.Message });
+            }
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuanLyChoThueThietBi.Models;
 using RentalEquipmentAPI.DTOs;
@@ -20,7 +20,7 @@ namespace RentalEquipmentAPI.Controllers
             _mapper = mapper;
         }
 
-        // 1. LẤY DANH SÁCH HỢP ĐỒNG (Có lọc trạng thái & Tách Query)
+        // 1. LẤY DANH SÁCH HỢP ĐỒNG (Tối ưu chống lỗi 'WITH')
         [HttpGet]
         public async Task<ActionResult<IEnumerable<HopDongDto>>> GetHopDongs([FromQuery] string? trangThai)
         {
@@ -30,7 +30,7 @@ namespace RentalEquipmentAPI.Controllers
                     .Include(h => h.MaKhachHangNavigation)
                     .Include(h => h.ChiTietHopDongs)
                         .ThenInclude(ct => ct.MaThietBiNavigation)
-                    .AsSplitQuery() // Giải quyết lỗi 'WITH' trên SQL Server bản cũ
+                    .AsSplitQuery() // 🛠️ Tránh lỗi câu lệnh SQL quá phức tạp
                     .AsQueryable();
 
                 if (!string.IsNullOrEmpty(trangThai))
@@ -48,20 +48,18 @@ namespace RentalEquipmentAPI.Controllers
             }
         }
 
-        // 2. TÌM HỢP ĐỒNG THEO MÃ THIẾT BỊ (Phục vụ chức năng Thu hồi)
+        // 2. TÌM HỢP ĐỒNG THEO MÃ THIẾT BỊ (Hỗ trợ App khi quét QR Thu hồi)
         [HttpGet("ByEquipment/{equipmentId}")]
         public async Task<ActionResult> GetHopDongByEquipment(int equipmentId)
         {
-            // Tìm hợp đồng đang hiệu lực hoặc quá hạn có chứa thiết bị này
             var hopDong = await _context.HopDongs
                 .Include(h => h.MaKhachHangNavigation)
-                .Where(h => (h.TrangThai == "DangHieuLuc" || h.TrangThai == "QuaHan")
+                .Where(h => (h.TrangThai == "DangHieuLuc" || h.TrangThai == "QuaHan" || h.TrangThai == "GiaHan")
                          && h.ChiTietHopDongs.Any(ct => ct.MaThietBi == equipmentId))
                 .OrderByDescending(h => h.NgayTao)
                 .Select(h => new {
                     h.MaHopDong,
                     h.MaDinhDanhHopDong,
-                    // Map thủ công để lấy đúng tên công ty khách hàng
                     TenKhachHang = h.MaKhachHangNavigation != null ? h.MaKhachHangNavigation.TenCongTy : "Khách lẻ",
                     h.NgayKetThucDuKien
                 })
@@ -73,11 +71,11 @@ namespace RentalEquipmentAPI.Controllers
             return Ok(hopDong);
         }
 
-        // 3. TẠO MỚI HỢP ĐỒNG (Có Transaction & Tự động đổi trạng thái máy)
+        // 3. TẠO HỢP ĐỒNG MỚI
         [HttpPost]
         public async Task<ActionResult> PostHopDong([FromBody] HopDongCreateDto dto)
         {
-            // Lấy ID người dùng từ Token (Người đang đăng nhập)
+            // Lấy ID nhân viên đang thao tác từ Token
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (userIdClaim == null) return Unauthorized(new { message = "Bạn cần đăng nhập lại!" });
             int currentUserId = int.Parse(userIdClaim);
@@ -85,16 +83,24 @@ namespace RentalEquipmentAPI.Controllers
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
             {
-                // Map từ DTO sang Model
                 var hopDong = _mapper.Map<HopDong>(dto);
-
                 hopDong.MaNguoiTao = currentUserId;
                 hopDong.NgayTao = DateTime.Now;
 
                 _context.HopDongs.Add(hopDong);
-                await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync(); // Lưu để lấy được MaHopDong phát sinh
 
-                // Cập nhật trạng thái từng thiết bị sang 'DangChoThue'
+                // 🔥 THAY THẾ TRIGGER 1: Thông báo có hợp đồng mới
+                var thongBaoHD = new ThongBao
+                {
+                    TieuDe = "Hợp đồng mới",
+                    NoiDung = $"Có hợp đồng mới vừa được tạo: {hopDong.MaDinhDanhHopDong}",
+                    LoaiThongBao = "HopDong",
+                    NgayTao = DateTime.Now
+                };
+                _context.ThongBaos.Add(thongBaoHD);
+
+                // Cập nhật trạng thái từng thiết bị và ghi Lịch sử luân chuyển
                 foreach (var item in hopDong.ChiTietHopDongs)
                 {
                     var thietBi = await _context.ThietBis.FindAsync(item.MaThietBi);
@@ -105,7 +111,21 @@ namespace RentalEquipmentAPI.Controllers
                             await transaction.RollbackAsync();
                             return BadRequest(new { message = $"Thiết bị {thietBi.TenThietBi} không sẵn sàng!" });
                         }
+
+                        string trangThaiCu = thietBi.TrangThai;
                         thietBi.TrangThai = "DangChoThue";
+
+                        // Ghi nhận lịch sử xuất kho
+                        _context.LichSuLuanChuyens.Add(new LichSuLuanChuyen
+                        {
+                            MaThietBi = thietBi.MaThietBi,
+                            LoaiLuanChuyen = "XuatThue",
+                            MaHopDongLienQuan = hopDong.MaHopDong,
+                            TrangThaiTruoc = trangThaiCu,
+                            TrangThaiSau = "DangChoThue",
+                            MaNguoiThucHien = currentUserId,
+                            NgayTao = DateTime.Now
+                        });
                     }
                 }
 

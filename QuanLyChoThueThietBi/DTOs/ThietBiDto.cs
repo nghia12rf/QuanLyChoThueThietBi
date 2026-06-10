@@ -1,4 +1,4 @@
-﻿namespace RentalEquipmentAPI.DTOs
+namespace RentalEquipmentAPI.DTOs
 {
     public class ThietBiDto
     {
@@ -18,5 +18,11 @@
         public string? CongSuat { get; set; }
         public string? TrongLuong { get; set; }
         public string? DienAp { get; set; }
+        public string? AnhLienQuan { get; set; }
+    }
+
+    public class ThietBiUpdateStatusDto
+    {
+        public string TrangThai { get; set; } = null!;
     }
 }

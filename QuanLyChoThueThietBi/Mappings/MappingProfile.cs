@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using QuanLyChoThueThietBi.Models;
 using RentalEquipmentAPI.DTOs;
 
@@ -57,5 +57,11 @@ public class MappingProfile : Profile
             .ReverseMap();
 
         CreateMap<GiaHanCreateDto, GiaHanHopDong>();
+
+        // --- 8. NGƯỜI DÙNG & THÔNG BÁO ---
+        CreateMap<NguoiDung, NguoiDungDto>().ReverseMap();
+        CreateMap<NguoiDungCreateDto, NguoiDung>()
+            .ForMember(dest => dest.MatKhauHash, opt => opt.MapFrom(src => src.MatKhau));
+        CreateMap<ThongBao, ThongBaoDto>().ReverseMap();
     }
 }

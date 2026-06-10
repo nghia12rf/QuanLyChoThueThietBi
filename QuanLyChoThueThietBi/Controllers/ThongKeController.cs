@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuanLyChoThueThietBi.Models;
@@ -59,18 +59,18 @@ namespace RentalEquipmentAPI.Controllers
         public async Task<IActionResult> GetSuCo()
         {
             var totalEquipments = await _context.ThietBis.CountAsync();
-            var totalDamaged = await _context.PhieuThuHois.CountAsync(p => p.CoHuHong == true);
+            var totalDamaged = await _context.LichSuLuanChuyens
+                .Where(l => l.LoaiLuanChuyen == "DiBaoTri")
+                .Select(l => l.MaThietBi)
+                .Distinct()
+                .CountAsync();
 
             double tyLeHong = totalEquipments > 0 ? (double)totalDamaged / totalEquipments * 100 : 0;
 
-            var topDamagedEquipments = await _context.PhieuThuHois
-                .Where(p => p.CoHuHong == true)
-                .Include(p => p.MaHopDongNavigation)
-                    .ThenInclude(h => h.ChiTietHopDongs)
-                        .ThenInclude(c => c.MaThietBiNavigation)
-                .SelectMany(p => p.MaHopDongNavigation.ChiTietHopDongs,
-                    (p, ct) => new { ct.MaThietBiNavigation.TenThietBi })
-                .GroupBy(x => x.TenThietBi)
+            var topDamagedEquipments = await _context.LichSuLuanChuyens
+                .Where(l => l.LoaiLuanChuyen == "DiBaoTri")
+                .Include(l => l.MaThietBiNavigation)
+                .GroupBy(l => l.MaThietBiNavigation.TenThietBi)
                 .Select(g => new
                 {
                     TenThietBi = g.Key,

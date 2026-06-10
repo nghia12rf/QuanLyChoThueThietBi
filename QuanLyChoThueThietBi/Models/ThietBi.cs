@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace QuanLyChoThueThietBi.Models;
@@ -38,6 +38,8 @@ public partial class ThietBi
     public string? TrongLuong { get; set; }
 
     public string? DienAp { get; set; }
+
+    public string? AnhLienQuan { get; set; }
     // -----------------------------------------
 
     public virtual ICollection<ChiTietHopDong> ChiTietHopDongs { get; set; } = new List<ChiTietHopDong>();

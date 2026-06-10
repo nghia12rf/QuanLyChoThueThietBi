@@ -118,5 +118,5 @@ app.UseAuthorization();
 
 // 5. Map các Controller API
 app.MapControllers();
-
+app.UseStaticFiles();
 app.Run();

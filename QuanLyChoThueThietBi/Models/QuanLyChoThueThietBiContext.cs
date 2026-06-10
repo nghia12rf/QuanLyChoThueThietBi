@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,6 +32,8 @@ public partial class QuanLyChoThueThietBiContext : DbContext
     public virtual DbSet<PhieuThuHoi> PhieuThuHois { get; set; }
 
     public virtual DbSet<ThietBi> ThietBis { get; set; }
+
+    public virtual DbSet<ThongBao> ThongBaos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -259,6 +261,21 @@ public partial class QuanLyChoThueThietBiContext : DbContext
             entity.HasOne(d => d.MaDanhMucNavigation).WithMany(p => p.ThietBis)
                 .HasForeignKey(d => d.MaDanhMuc)
                 .HasConstraintName("FK__ThietBi__MaDanhM__1ED998B2");
+        });
+
+        modelBuilder.Entity<ThongBao>(entity =>
+        {
+            entity.HasKey(e => e.MaThongBao).HasName("PK_ThongBao");
+
+            entity.ToTable("ThongBao");
+
+            entity.Property(e => e.TieuDe).HasMaxLength(100);
+            entity.Property(e => e.NoiDung).HasMaxLength(500);
+            entity.Property(e => e.LoaiThongBao).HasMaxLength(50);
+            entity.Property(e => e.DaDoc).HasDefaultValue(false);
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
         });
 
         OnModelCreatingPartial(modelBuilder);
