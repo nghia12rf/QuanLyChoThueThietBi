@@ -82,11 +82,15 @@ namespace RentalEquipmentAPI.Controllers
 
                 // Tính toán ngày trễ và tiền phạt trễ
                 int soNgayTre = 0;
+                decimal tienPhatTre = 0m;
                 if (dto.NgayTra > hopDong.NgayKetThucDuKien)
                 {
                     soNgayTre = (int)Math.Ceiling((dto.NgayTra - hopDong.NgayKetThucDuKien).TotalDays);
+                    // Tính tổng đơn giá thuê ngày của tất cả thiết bị trong hợp đồng
+                    decimal tongGiaThueNgay = hopDong.ChiTietHopDongs.Sum(ct => ct.GiaThueThoiDiem);
+                    // Phạt trễ hạn = số ngày trễ * (tổng giá thuê ngày * 1.5)
+                    tienPhatTre = soNgayTre * (tongGiaThueNgay * 1.5m);
                 }
-                decimal tienPhatTre = soNgayTre * 100000m; // 100,000 VND / ngày
 
                 // Tính toán tổng tiền phải thanh toán
                 decimal basePrice = hopDong.TongTien;
