@@ -1,4 +1,4 @@
-﻿namespace RentalEquipmentAPI.DTOs
+namespace RentalEquipmentAPI.DTOs
 {
     // DTO trả về khi lấy danh sách/chi tiết (Dùng cho GET)
     public class HopDongDto
@@ -27,6 +27,7 @@
         public DateTime NgayBatDau { get; set; }
         public DateTime NgayKetThucDuKien { get; set; }
         public decimal TienCoc { get; set; }
+        public decimal TongTien { get; set; }
         public string? GhiChu { get; set; }
         public List<ChiTietHopDongCreateDto> ChiTiet { get; set; } = new();
     }
@@ -44,6 +45,8 @@
     public class ChiTietHopDongCreateDto
     {
         public int MaThietBi { get; set; }
+        public decimal GiaThueThoiDiem { get; set; }
+        public decimal ThanhTien { get; set; }
         public string? GhiChu { get; set; }
     }
 }
